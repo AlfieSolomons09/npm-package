@@ -1,0 +1,20 @@
+{
+  "name": "@chetanc_2002/common",
+  "version": "1.1.2",
+  "description": "This npm package provides a backend user authentication solution using Zod for validation and bcrypt for password hashing. Zod is a TypeScript-first schema validation library that allows you to define the shape of your data and validate it with ease. Bcrypt is used for securely hashing and comparing passwords.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2"
+  },
+  "types": "./dist/index.d.ts"
+}
